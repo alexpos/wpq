@@ -1,0 +1,24 @@
+        <!-- Navigation -->
+        {% if page.url == "/about/" %}
+            <div class="contain-to-grid about">
+        {% elsif page.url == "/contact/" %}
+            <div class="contain-to-grid contact">
+        {% else %}
+            <div class="contain-to-grid">
+        {% endif %}
+            <nav class="top-bar">
+                <ul>
+                    <li class="name"><h1><a href="{{ site.url }}/wpq/"><i class="icon-home"></i> WPQ</a></h1></li>
+                    <li class="toggle-topbar"><a href="#"></a></li>
+                </ul>
+                <section>
+                    <ul class="right">
+                        <li><a href="{{ site.url }}/wpq/tags"><i class="icon-tags"></i> Tags</a></li>
+                        <!-- <li><a href="{{ site.url }}/wpg/links"><i class="icon-bookmark"></i> Links</a></li> -->
+                        <li><a href="{{ site.url }}/wpq/about"><i class="icon-cog"></i> About</a></li>
+                        <li><a href="{{ site.url }}/wpq/contact"><i class="icon-envelope"></i> Contact</a></li>
+                    </ul>
+                </section>
+            </nav>
+        </div>
+        <br>

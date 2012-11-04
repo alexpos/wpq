@@ -1,0 +1,7 @@
+            {% if page.category %}
+            <li>{{page.category}}</li>
+            {% endif %}
+            <ul class="inline-list">
+              {% assign tags_list = page.tags %}
+              {% include tags_list %}
+            </ul>

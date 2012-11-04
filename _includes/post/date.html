@@ -1,0 +1,6 @@
+{% capture time %}<time datetime="{{ page.date | date_to_xmlschema }}" pubdate{% if updated %} data-updated="true"{% endif %} property="dc:created">{{ page.date | date_to_string }}</time>{% endcapture %}
+
+<li><b>Posted: </b>{{time}}</li>
+{% if page.updated %}
+<li><b>Updated: </b>{{page.updated}}</li>
+{% endif %}

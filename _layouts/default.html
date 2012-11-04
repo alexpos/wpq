@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+	    <meta charset="utf-8" />
+	    <meta name="viewport" content="width=device-width" />
+
+        {%if page.title %}
+        <title>{{ page.title }}</title>
+        {% else %}
+        <title>{{ site.title }}</title>
+        {% endif %}
+	    <link rel="stylesheet" href="{{ site.url }}/wpq/asset/css/app.css">
+	    <link href="{{ site.url }}/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    </head>
+    <body>
+
+        {%include navbar.html %}
+
+        {{ content }}
+
+        {%include footer.html %}
+
+        <!-- Foundation JS -->
+        <script src="{{ site.baseurl }}/wpq/asset/js/foundation/foundation.min.js"></script>
+        <script src="{{ site.baseurl }}/wpq/asset/js/foundation/app.js"></script>
+
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+    </body>
+</html>

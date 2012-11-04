@@ -1,0 +1,36 @@
+// wpq css
+
+//navbar
+.contain-to-grid { border-bottom: 3px solid $mainColor !important; }
+.contain-to-grid.about { border-bottom: 3px solid #B1005D !important; }
+.contain-to-grid.contact { border-bottom: 3px solid #FF5C00 !important; }
+
+//
+.verspace { margin-bottom: 10px; }
+
+//contact
+ul.icons {
+  list-style-type: none;
+  margin-left: 2em;
+  text-indent: -0.8em;
+}
+
+p.red {
+    color: red !important;
+    background: yellow !important;
+    font-size: 45px;
+    }
+
+//footer
+.ftext { font-size: 37px; }
+.rating { font-size: 30px; }
+
+.wpicon { display: inline-block; background-size: 100%; width: 32px; height: 32px; text-indent: -999em; text-align: left; }
+.wpicon:hover { margin: -1px 0 1px; -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.25); }
+.wpicon.small { width: 16px; height: 16px; }
+
+/* WP */
+.wpicon.wplogo { background: url("/wpq/asset/image/wordpress-logo-32-blue.png"); }
+.wpicon.wplogo.small { background: url("/wpq/asset/image/wpmini-blue.png"); }
+.wpicon.wplogogrey { background: url("/wpq/asset/image/wordpress-logo-32.png"); }
+.wpicon.wplogogrey.small { background: url("/wpq/asset/image/wpmini-grey.png"); }
