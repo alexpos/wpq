@@ -27,5 +27,6 @@ deploy:
 
 hub:
 	$(GIT) checkout gh-pages
+	$(GIT) merge gh_devel
 	$(GIT)  push origin gh-pages
 	$(GIT) checkout gh_devel
