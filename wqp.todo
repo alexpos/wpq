@@ -2,13 +2,12 @@ Todo:
  ✔ links uitzetten @done (12-11-03 20:41)
  ✔ Alles in git / hoe werkt gh_pages? @done (12-11-03 21:54)
  ✔ About - why how who @done (12-11-03 22:02)
- ☐ 10 vragen - tw, simpel,beter,further reading
- ☐ publish
+ ✔ 10 vragen - tw, simpel,beter,further reading @done (12-11-05 10:22)
+ ✔ publish @done (12-11-05 10:22)
  ☐ links aanzetten
  ☐ jquery vouwen header / footer
  ☐ plaatjes - WP post / page / bij posts
  ☐ niet alles op voorpagina - excerpt?
- ☐ previous / net post
  ☐ top-menu automatiseren
  ☐ gebruik ik alles van zurb?
  ☐ kleuren veranderen / them + licht donker m cookie
@@ -17,7 +16,13 @@ Todo:
  ☐ gists
  ☐ tags met % zoal wp-snippets
  ☐ Contact mailtwitter issues fork github
+     ☐ http://patterntap.com/pattern/profile-page-goodis
  ☐ footer - tw,web,pinb,about me
+ ☐ add http://html5boilerplate.com/
+ ☐ http://nimbupani.com/redesign-notes.html
+     ☐ source link
+     ☐ previous / next post https://github.com/nimbupani/nimbupani.github.com/blob/source/source/archives/index.html
+ ☐ https://github.com/nimbupani/nimbupani.github.com/issues/1
 
  Links:
 

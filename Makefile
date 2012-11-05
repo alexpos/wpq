@@ -26,4 +26,5 @@ deploy:
 	$(GIT) commit -m "Update generated assets."
 
 hub:
-	git push origin gh-pages
+	$(GIT) checkout gh-pages
+	$(GIT)  push origin gh-pages
