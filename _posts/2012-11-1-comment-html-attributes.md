@@ -12,9 +12,11 @@ To remove the “You may use…” stuff at the bottom of the comments form, jus
     .form-allowed-tags{ 
     display:none;} 
 
-or, in your _comments.php_, replace:
+or, in your _comments.php_ [^1], replace:
 
     <?php comment_form(); ?>
+
+[^1]: you will hve to search your theme for other occurences
 
 with:
 
