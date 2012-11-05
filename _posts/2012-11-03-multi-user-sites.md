@@ -1,5 +1,4 @@
 ---
-status: draft
 tags: [ plugins ]
 layout: post
 title: "Multi-user sites"

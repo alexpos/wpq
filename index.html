@@ -7,7 +7,7 @@ layout: page
 <ul class="accordion">
   {% for node in site.posts %}
 
-    {% unless node.status == 'draft' %}
+    {% unless node.subtitle == 'draft' %}
       <li>
         <div class="title">
           <h5>{{node.title}}</h5>
@@ -18,8 +18,8 @@ layout: page
             {{node.content}}
           </div>
 
-            <a href="http://twitter.com/share" class="twitter-share-button" data-text="{{node.tweet}}" data-url="{{ site.url }}/wpq/{{ node.url }}" data-via="{{ site.twitter_user }}" data-counturl="{{ site.url }}/wpq/{{ node.url }}" >Tweet Suggestion</a>
-            <a class="button right" href="/wpq/{{node.url}}"><i class="icon-paper-clip"></i>  article</a>
+            <a href="http://twitter.com/share" class="twitter-share-button" data-text="{{node.tweet}}" data-url="{{ site.url }}/wpq{{ node.url }}" data-via="{{ site.twitter_user }}" data-counturl="{{ site.url }}/wpq{{ node.url }}" >Tweet Suggestion</a>
+            <a class="button right" href="/wpq{{node.url}}"><i class="icon-paper-clip"></i>  article</a>
 
         </div>
       </li>

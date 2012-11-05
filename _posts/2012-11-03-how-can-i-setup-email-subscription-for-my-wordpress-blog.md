@@ -1,5 +1,4 @@
 ---
-status: draft
 subtitle: draft
 tags: [ config ]
 layout: post

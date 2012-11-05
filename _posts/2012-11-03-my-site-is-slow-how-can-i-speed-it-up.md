@@ -1,6 +1,5 @@
 ---
 subtitle:
-status:
 tags: [ config ]
 layout: post
 title: "My site is slow. How can I speed it up?"

@@ -1,5 +1,4 @@
 ---
-status: draft
 subtitle: draft
 tweet: todo
 tags: [ plugins ]

@@ -1,5 +1,4 @@
 ---
-status:
 subtitle: 
 tags: [ plugins ]
 layout: post

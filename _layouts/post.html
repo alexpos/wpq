@@ -8,11 +8,11 @@ layout: default
     <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
     <div class="nine columns push-three">
 
-      <h2>{{page.title}}{% if page.subtitle %}<small> {{page.subtitle}}</small>{% endif %}</h2>
+      <h2>{{page.title}}{% if page.subtitle %}{% unless page.subtitle == 'draft' %}<small> {{page.subtitle}}</small>{% endunless %}{% endif %}</h2>
 
-      {% if page.status %}
+      {% if page.subtitle == "draft" %}
         <div class="alert-box alert">
-            <b>Status: </b>{{page.status}}
+            <b>Status: DRAFT!</b>
             <a href="" class="close">&times;</a>
         </div>
       {% endif %}
