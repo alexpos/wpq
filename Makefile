@@ -28,3 +28,4 @@ deploy:
 hub:
 	$(GIT) checkout gh-pages
 	$(GIT)  push origin gh-pages
+	$(GIT) checkout gh_devel
