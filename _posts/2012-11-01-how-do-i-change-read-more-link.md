@@ -3,7 +3,7 @@ layout: post
 title: How do I change the "read more" link?
 tags: [php]
 subtitle: 
-tweet: "replace <?php the_content(); ?> with <?php the_content(&#34; Read on...&#34; ); ?> in contents.php etc"
+tweet: "#wordpress: replace <?php the_content(); ?> with <?php the_content(&#34; Read on...&#34; ); ?> in contents.php etc"
 ---
 
 If you want to change the words from more.... to something else, just type in the new words into the tag:

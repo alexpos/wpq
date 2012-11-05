@@ -23,9 +23,9 @@ Usage:
   {% for node in pages_list %}
     {% if group == null or group == node.group %}
     	{% if page.url == node.url %}
-    	<li class="active"><a href="{{ BASE_PATH }}/wpq{{node.url}}" class="active">{{node.title}}</a> {% if node.status %}<span class="secondary label">{{node.status}}</span>{% endif %} </li>
+    	<li class="active"><a href="{{ BASE_PATH }}/wpq{{node.url}}" class="active">{{node.title}}</a> {% if node.subtitle %}<span class="secondary label">draft</span>{% endif %} </li>
       {% else %}
-    	<li><a href="{{ BASE_PATH }}/wpq{{node.url}}">{{node.title}}</a> {% if node.status %}<span class="secondary label">{{node.status}}</span>
+    	<li><a href="{{ BASE_PATH }}/wpq{{node.url}}">{{node.title}}</a> {% if node.subtitle == "draft" %}<span class="secondary label">draft</span>
 {% endif %}</li>
     	{% endif %}
     {% endif %}

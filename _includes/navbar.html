@@ -1,8 +1,10 @@
         <!-- Navigation -->
-        {% if page.url == "/about/" %}
+        {% if page.id == "about"  %}
             <div class="contain-to-grid about">
-        {% elsif page.url == "/contact/" %}
+        {% elsif page.id == "contact" %}
             <div class="contain-to-grid contact">
+        {% elsif page.id == "privacy" %}
+            <div class="contain-to-grid privacy">
         {% else %}
             <div class="contain-to-grid">
         {% endif %}

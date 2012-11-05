@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Privacy Policy
+id: privacy
 ---
 
 ##Cookies

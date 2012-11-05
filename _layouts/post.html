@@ -17,16 +17,9 @@ layout: default
         </div>
       {% endif %}
 
-      {% if page.subheader %}
-      <h5>{{page.subheader}}</h5>
-      <hr>
-      {%endif%}
-
       {{content}}
 
-      {% if page.tweet %}
-        {% include post/tweet.html %}
-      {% endif %}
+      {% include post/tweet.html %}
 
     </div>
 

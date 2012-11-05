@@ -3,7 +3,7 @@ layout: post
 title: What are the best social media plugins for Wordpress?
 subtitle:
 tags: [plugins]
-tweet: "Arguably the best two are https://wordpress.org/extend/plugins/social-sharing-toolkit/ and https://wordpress.org/extend/plugins/digg-digg/"
+tweet: "Arguably the two best social media #wordpress plugins are https://wordpress.org/extend/plugins/social-sharing-toolkit/ and https://wordpress.org/extend/plugins/digg-digg/"
 ---
 
 There are many good social media plugins. Here are several good resources:

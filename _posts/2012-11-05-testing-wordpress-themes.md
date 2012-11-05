@@ -3,7 +3,7 @@ category: [ plugin, config ]
 subtitle:
 layout: post
 title: "Testing WordPress themes"
-tweet: "Test WP themes with https://wordpress.org/extend/plugins/theme-test-drive/ so only admin sees the new theme"
+tweet: "Test #wordpress themes with https://wordpress.org/extend/plugins/theme-test-drive/ so only admin sees the new theme"
 ---
 
 #Testing WordPress themes

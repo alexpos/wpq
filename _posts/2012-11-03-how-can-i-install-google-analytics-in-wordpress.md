@@ -4,7 +4,6 @@ tags: [ config, plugins ]
 layout: post
 title: "How can I install Google Analytics in WordPress?"
 tweet: "Google Analytics, best plugin: http://yoast.com/wordpress/google-analytics/"
-status: draft
 ---
 
 There are two ways you can add gooogle analytics to your blog:

@@ -3,7 +3,7 @@ subtitle:
 tags: [ config ]
 layout: post
 title: "My site is slow. How can I speed it up?"
-tweet: "Slow site: use http://wordpress.org/extend/plugins/w3-total-cache/ http://www.maxcdn.com/ and a better theme"
+tweet: "Slow #wordpress site: use http://wordpress.org/extend/plugins/w3-total-cache/ http://www.maxcdn.com/ and a better theme"
 ---
 
 Performace matters. Every second your site loads, more visitors will leave your site. What can you do?
