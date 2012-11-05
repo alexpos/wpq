@@ -2,9 +2,9 @@
 layout: post
 title: How do I remove the html attributes under the commenting form?
 tags: [ css, php]
-subtitle: draft
-status: draft
-tweet: "todo"
+subtitle:
+status:
+tweet: "How do I remove the html attributes under the commenting form?"
 ---
 
 To remove the “You may use…” stuff at the bottom of the comments form, just add this to your _style.css_:
