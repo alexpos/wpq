@@ -3,7 +3,7 @@ layout: post
 title: How do I change the "read more" link?
 tags: [php]
 subtitle: 
-status: draft
+status:
 tweet: "replace <?php the_content(); ?> with <?php the_content(&#34; Read on...&#34; ); ?> in contents.php etc"
 ---
 
