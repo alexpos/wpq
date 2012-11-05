@@ -1,10 +1,10 @@
 ---
 status:
-subtitle: draft
+subtitle: 
 tags: [ plugins ]
 layout: post
 title: "EU Cookie-law"
-tweet: "EU Cookie Law: start http://www.civicuk.com/cookie-law/index and http://www.jonworth.eu/eu-cookie-law-compliance-in-wordpress/"
+tweet: "EU Cookie Law: start with http://www.civicuk.com/cookie-law/ then http://www.jonworth.eu/eu-cookie-law-compliance-in-wordpress/"
 ---
 
 There are several good tools to make your site comply to the cookie law:
