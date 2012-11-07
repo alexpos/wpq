@@ -1,7 +1,7 @@
 ---
 subtitle: draft
 tweet: todo
-tags: [ plugin ]
+tags: [ plugins ]
 layout: post
 title: "Image-sliders and WordPress"
 ---
