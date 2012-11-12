@@ -19,8 +19,10 @@ id: home
             {{node.content}}
           </div>
 
-            <a href="http://twitter.com/share" class="twitter-share-button" data-text="{{node.tweet}}" data-url="{{ site.url }}/wpq{{ node.url }}" data-via="{{ site.twitter_user }}" data-counturl="{{ site.url }}/wpq{{ node.url }}" >Tweet Suggestion</a>
-            <a class="button right" href="/wpq{{node.url}}"><i class="icon-paper-clip"></i>  article</a>
+          <a href="https://twitter.com/share" class="secondary button" data-url="http://plovs.github.com/wpq/{{ page.url }}" data-text="{{page.tweet}}" data-via="plovs" data-hashtags="wordpress"><i class="icon-twitter"></i>  Share this</a>
+
+<!--             <a href="http://twitter.com/share" class="twitter-share-button" data-text="{{node.tweet}}" data-url="{{ site.url }}/wpq{{ node.url }}" data-via="{{ site.twitter_user }}" data-counturl="{{ site.url }}/wpq{{ node.url }}" >Tweet Suggestion</a>
+ -->            <a class="button right" href="/wpq{{node.url}}"><i class="icon-paper-clip"></i>  article</a>
 
         </div>
       </li>
