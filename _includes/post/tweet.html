@@ -2,10 +2,17 @@
 {% if page.tweet %}
   <div class="eight columns">
     <div class="panel radius">
-        <h5>Just tweet this:</h5>
-        <p>{{page.tweet}} via:plovs</p>
 
-        <a href="https://twitter.com/share" class="secondary button" data-url="http://plovs.github.com/wpq/{{ page.url }}" data-text="{{page.tweet}}" data-via="plovs" data-hashtags="wordpress"><i class="icon-twitter"></i>  Share this</a>
+        {% if page.tweet == 'todo' %}
+            {% assign tweet = 'FYI:' %}
+        {% else %}
+            {% assign tweet = page.tweet %}
+        {% endif %}
+
+        <h5>Share</h5>
+        <p>{{tweet}} http://plovs.github.com/wpq/{{ page.url }} via:plovs</p>
+        <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://plovs.github.com/wpq/{{ page.url }}" data-text="{{tweet}}" data-via="plovs" data-hashtags="wordpress">Tweet</a>
+
 
     </div>
   </div>
