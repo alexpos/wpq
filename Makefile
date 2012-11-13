@@ -20,6 +20,9 @@ local:
 	jekyll --pygments --no-lsi --safe --no-auto --no-server
 	cp _htaccess _site/.htaccess
 
+vlocal:
+	open http://wpq.dev
+
 deploy:
 	$(GIT) add asset/css/app.css
 	$(GIT) add asset/javascript/app.js
@@ -30,3 +33,4 @@ hub:
 	$(GIT) merge gh_devel
 	$(GIT)  push origin gh-pages
 	$(GIT) checkout gh_devel
+
