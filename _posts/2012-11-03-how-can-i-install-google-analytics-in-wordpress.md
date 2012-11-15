@@ -30,9 +30,14 @@ right above _</body>_ in _footer.php_. Don't forget to change _UA-XXXXX-X_ to th
 
 The best plugin is [Google Analytics][yoa]{% include wplugin.html %} by Joost vd Valk. The link has a video and documentation why the plugin is better then just using the script.
 
-Second best: [Google Analytics Dashboard][gad]{% include wplugin.html %}
+Super simple: [Google Analytics Plugin][gap], just adds the code to your footer.
+
+Nice to have: [Google Analytics Dashboard][gad]{% include wplugin.html %}
 
 It is important to mention that you will NOT be able to install Google Analytics in your WordPress.com blog. They provide a built-in feature called WordPress.com Stats.
 
+Further reading: [5+ Ways to Add Google Analytics to WordPress](http://digwp.com/2012/06/add-google-analytics-wordpress/) on digwp.com.
+
 [yoa]: http://yoast.com/wordpress/google-analytics/
 [gad]: https://wordpress.org/extend/plugins/google-analytics-dashboard/
+[gap]: http://perishablepress.com/google-analytics-plugin/
