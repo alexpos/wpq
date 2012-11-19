@@ -12,7 +12,7 @@ Switching your theme is very simple on WordPress. Just go to **Appearance > Them
 
 Comes in [Theme Test Drive][ttd] {% include wplugin.html %}. This plugin enables your new theme only for admin users, regular visitors see the old site.
 
-If you want to take your theme offline, use [WP Maintenance Mode][mm] or [DP Maintenance Mode Lite][dp]. These plugins adds a splash page to your site that lets visitors know your site is down for maintenance. Full access to the back- & front-end is possible.
+If you want to take your theme offline, use [WP Maintenance Mode][mm] {% include wplugin.html %} or [DP Maintenance Mode Lite][dp] {% include wplugin.html %}. These plugins adds a splash page to your site that lets visitors know your site is down for maintenance. Full access to the back- & front-end is possible.
 
 [mm]: http://wordpress.org/extend/plugins/wp-maintenance-mode/
 [dp]: http://wordpress.org/extend/plugins/dp-maintenance-mode-lite/screenshots/
