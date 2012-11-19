@@ -4,6 +4,7 @@ subtitle:
 tweet: "#blogger: nice&simple, #wordpress: more powerful but can be $$, both are great. Short comparison:"
 layout: post
 title: "Blogger or Wordpress?"
+updated: 19 Nov 2012
 ---
 
 Here we compare [Blogger][bl], josted by Google, [WordPress.com][wp], hosted by automatic, and [WordPress.org][w2], which you have to host yourself.
