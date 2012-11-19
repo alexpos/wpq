@@ -24,6 +24,9 @@ local:
 vlocal:
 	open http://wpq.dev
 
+vweb:
+	open http://plovs.github.com/wpq
+
 deploy:
 	$(GIT) add asset/css/app.css
 	$(GIT) add asset/javascript/app.js
