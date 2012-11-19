@@ -1,5 +1,6 @@
 GIT = git
 BUNDLE = bundle
+EDIT = /Users/plovs/bin/subl
 
 help:
 	@echo "- setup: Installs dependencies and remotes."
@@ -34,3 +35,5 @@ hub:
 	$(GIT)  push origin gh-pages
 	$(GIT) checkout gh_devel
 
+edit:
+	$(EDIT)  /Users/plovs/Projects/STP/wpq.sublime-project
