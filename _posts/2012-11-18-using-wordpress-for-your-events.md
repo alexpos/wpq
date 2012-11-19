@@ -8,8 +8,11 @@ title: "Using WordPress for your Events"
 
 ##Using WordPress as calendar
 
+- [Sugar Event Calendar Lite][pip] &#8212; a very nice and simpel event calendar
 - [Events Manager][eva] &#8212; 
 - [Events Made Easy][eme] &#8212; 
+
+[pip]: https://github.com/pippinsplugins/Sugar-Event-Calendar-Lite
 
 ##Using an external calendar service
 
