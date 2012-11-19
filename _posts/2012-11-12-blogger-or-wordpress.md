@@ -36,7 +36,9 @@ Overall, Blogger's main advantage is simplicity. Everything is as simple as can 
 
 - [Computerworld][computerworld] - Blogging service shootout: Blogger vs. WordPress
 - [Minterest][minterest] - WordPress or Blogger? WordPress vs Blogger
+- [Blogger or WordPress][bow] - From an affiliate marketinger's point of view 
 
+[bow]: http://www.reviewzntips.com/moving-from-blogger-to-wordpress/
 [computerworld]: https://www.computerworld.com/s/article/9224441/Blogging_service_shootout_Blogger_vs._WordPress?taxonomyId=169&pageNumber=7
 [minterest]: http://www.minterest.com/wordpress-vs-blogger-or-wordpress-vs-blogspot/
 [bl]: http://blogger.com
