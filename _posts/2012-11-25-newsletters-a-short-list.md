@@ -1,6 +1,6 @@
 ---
 category: plugins
-subtitle: "a short list"
+subtitle: 
 tweet: todo
 layout: post
 title: "Newsletters - a short list"
