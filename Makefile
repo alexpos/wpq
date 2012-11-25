@@ -20,8 +20,6 @@ local:
 	compass compile
 	jekyll --pygments --no-lsi --safe --no-auto --no-server
 	cp _htaccess _site/.htaccess
-
-vlocal:
 	open http://wpq.dev
 
 vweb:
