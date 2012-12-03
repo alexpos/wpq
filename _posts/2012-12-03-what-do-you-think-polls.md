@@ -1,5 +1,5 @@
 ---
-category: plugin
+category: plugins
 subtitle: draft
 tweet: todo
 layout: post
