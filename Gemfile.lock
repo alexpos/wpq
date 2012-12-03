@@ -28,6 +28,9 @@ GEM
     liquid (2.3.0)
     maruku (0.6.1)
       syntax (>= 1.0.0)
+    modular-scale (1.0.2)
+      compass (>= 0.11.5)
+      sassy-math (>= 1.2)
     posix-spawn (0.3.6)
     pygments.rb (0.2.13)
       rubypython (~> 0.5.3)
@@ -40,8 +43,15 @@ GEM
       blankslate (>= 2.1.2.3)
       ffi (~> 1.0.7)
     sass (3.2.1)
+    sassy-math (1.2)
+      compass (~> 0.11)
     stringex (1.4.0)
     syntax (1.0.0)
+    zurb-foundation (3.2.2)
+      compass (>= 0.12.2)
+      modular-scale (>= 1.0.2)
+      rake
+      sass (>= 3.2.0)
 
 PLATFORMS
   ruby
@@ -59,3 +69,4 @@ DEPENDENCIES
   rdiscount (~> 1.6.8)
   rubypants (~> 0.2.0)
   stringex (~> 1.4.0)
+  zurb-foundation
