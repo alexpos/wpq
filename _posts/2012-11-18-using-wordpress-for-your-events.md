@@ -1,18 +1,18 @@
 ---
 category: plugin
-subtitle: draft
-tweet: todo
+subtitle: 
+tweet: "Organise your events with WordPress!"
 layout: post
 title: "Using WordPress for your Events"
+updated: 03-12-2012
 ---
 
 ##Using WordPress as calendar
 
+- [Ajax Event Calendar][aje][pip] &#8212; new favourite! Drag and drop, very powerful plugin.
+- [Events Made Easy][eme] &#8212; supports recurring events, locations, widgets, Google maps, RSVP, ICAL and RSS feeds, PAYPAL support. 
+- [Events Manager][evm] &#8212; pro-version includes paypal etc integration
 - [Sugar Event Calendar Lite][pip] &#8212; a very nice and simpel event calendar
-- [Events Manager][eva] &#8212; 
-- [Events Made Easy][eme] &#8212; 
-
-[pip]: https://github.com/pippinsplugins/Sugar-Event-Calendar-Lite
 
 ##Using an external calendar service
 
@@ -22,6 +22,8 @@ title: "Using WordPress for your Events"
 
 - [Manage Events Like A Pro With WordPress][sma]
 
+[pip]: https://github.com/pippinsplugins/Sugar-Event-Calendar-Lite
+[aje]: http://wordpress.org/extend/plugins/ajax-event-calendar/
 [eme]: http://wordpress.org/extend/plugins/events-made-easy/
 [evm]: http://wordpress.org/extend/plugins/events-manager/
 [gce]: http://wordpress.org/extend/plugins/google-calendar-events/
